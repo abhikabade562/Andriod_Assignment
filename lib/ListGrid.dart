@@ -11,8 +11,8 @@ class ListGrid extends StatefulWidget {
 class _ListGridState extends State<ListGrid> {
   List<String> teachers = ['Mr.T.A.Mulla','Mr.U.B.Chavan','Mrs.Shetti','Mrs.Sonavane','Mr.P.K.Kharat','Mr.R.R.Rathod'];
   Map teachers_person = {
-     'teachers' : ['Mr.T.A.Mulla','Mr.U.B.Chavan','Mrs.Shetti','Mrs.Sonavane','Mr.P.K.Kharat','Mr.R.R.Rathod'],
-     'subjects' : ['CA','Andriod','SE','TOC','CN','PRW'],
+     'teachers' : ['Mr.T.A.Mulla','Mrs.Shetti','Mrs.Sonavane','Mr.P.K.Kharat','Mr.R.R.Rathod'],
+     'subjects' : ['CA','SE','TOC','CN','PRW'],
   };
   @override
   Widget build(BuildContext context) {
